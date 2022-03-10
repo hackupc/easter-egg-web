@@ -1,0 +1,12 @@
+{
+  "name": "easter-egg-web",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc src/main.ts --sourceMap --target es2019 --strict --out /dev/stdout | terser -o dist/main.js --source-map"
+  },
+  "main": "index.ts",
+  "devDependencies": {
+    "terser": "^5.12.0",
+    "typescript": "^4.5.4"
+  }
+}

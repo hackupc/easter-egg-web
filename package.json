@@ -2,7 +2,7 @@
   "name": "easter-egg-web",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc src/index.ts --sourceMap --target es2019 --strict --out /dev/stdout | terser -o dist/index.js --source-map"
+    "build": "tsc src/index.ts --sourceMap --target es2019 --strict --out /dev/stdout | terser -c -m -o dist/index.js --source-map"
   },
   "main": "index.ts",
   "devDependencies": {

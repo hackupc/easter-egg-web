@@ -8,7 +8,10 @@
 
 </p>
 
-Confuse hackers by adding importing this script.
+Confuse hackers by adding this script in a website. It does the following:
+1. Prints a cool banner into the console.
+1. Adds an element with a weird name at the end of the body that contains a custom text.
+1. Deletes the `<script>` from the page, so hackers can't find it.
 
 ## Usage
 

@@ -3,6 +3,5 @@
   command = "npm run build"
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "https://github.com/hackupc/easter-egg-web"
-  status = 404

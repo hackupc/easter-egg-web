@@ -17,3 +17,11 @@ Add this code at the bottom of the `body`:
 ```html
 <script async src="https://easter-egg.hackupc.com/index.js"></script>
 ```
+
+## Develop
+1. Install Node.js (with `vnm`).
+1. Clone the repo and open it.
+1. Run `npm install` to install the dependencies.
+1. Code.
+1. Run `npm run build` to build.
+1. To deploy, just push to `main` and [Netlify](https://api.netlify.com/api/v1/badges/fc5058a6-61a5-40c9-9598-d1b8636878ee/deploy-status) will handle the rest automatically.
